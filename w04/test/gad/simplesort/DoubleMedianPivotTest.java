@@ -33,7 +33,7 @@ public class DoubleMedianPivotTest {
         return Stream.of(
                 Arguments.of(
                         new int[] { 4, 9, 1, 10, 2 },
-                        new int[] { 1, 4 },
+                        new int[] { 4, 1 },
                         5,
                         0,
                         4),

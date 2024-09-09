@@ -46,14 +46,14 @@ public class DoubleDistributedMedianPivotTest {
                 Arguments.of(
                         new int[]{30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16,
                                 15, 12, 9, 6, 3, 0},
-                        new int[]{2, 6},
+                        new int[]{6, 2},
                         5,
                         0,
                         11),
                 Arguments.of(
                         new int[]{30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16,
                                 15, 12, 9, 6, 3, 0},
-                        new int[]{14, 18},
+                        new int[]{18, 14},
                         5,
                         12,
                         21));
