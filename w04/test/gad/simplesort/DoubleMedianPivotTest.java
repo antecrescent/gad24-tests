@@ -42,18 +42,6 @@ public class DoubleMedianPivotTest {
                         new int[] { 1, 2 },
                         5,
                         1,
-                        4),
-                Arguments.of(
-                        new int[] { 4, 9, 1, 10, 2 },
-                        new int[] { 1, 4 },
-                        5,
-                        0,
-                        4),
-                Arguments.of(
-                        new int[] { 4, 9, 1, 10, 2 },
-                        new int[] { 1, 4 },
-                        5,
-                        0,
                         4));
     }
 
