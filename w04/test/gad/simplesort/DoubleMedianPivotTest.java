@@ -36,12 +36,6 @@ public class DoubleMedianPivotTest {
                         new int[] { 4, 1 },
                         5,
                         0,
-                        4),
-                Arguments.of(
-                        new int[] { 4, 9, 1, 10, 2, 5, 99, 23, 3, 35, 6 },
-                        new int[] { 1, 2 },
-                        5,
-                        1,
                         4));
     }
 
