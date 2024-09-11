@@ -24,8 +24,8 @@ public class RadixSortTest {
                 Arguments.of(new int[]{0, -1, 0, 0}, 1),
                 Arguments.of(new int[]{0, -889, 0, 0}, 3),
                 Arguments.of(new int[]{Integer.MAX_VALUE, Integer.MIN_VALUE, 0}, 10),
-                Arguments.of(new int[]{1, 2, 5675, -222222, 930, -1, 999999, 1000000}, 7)
-        );
+                Arguments.of(new int[]{1, 2, 5675, -222222, 930, -1, 999999, 1000000}, 7),
+                Arguments.of(new int[]{}, 0));
     }
 
     @ParameterizedTest
